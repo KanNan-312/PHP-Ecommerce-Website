@@ -8,7 +8,7 @@
 <div class="container h-100">
 			<div class="container" style="height: 100px;"></div>
 			<div class="d-flex justify-content-center">
-				<img class="logo" src="logo_amazon.png" alt="" class="rounded-float-start">
+				<img class="logo" src="assets/logo_amazon.png" alt="" class="rounded-float-start">
 			</div>
 			<div class="d-flex justify-content-center form_container mt-4">
 				<!-- Form wrapper -->

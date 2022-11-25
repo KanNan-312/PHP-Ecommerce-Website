@@ -36,8 +36,8 @@
     xmlhttp.onload = function() {
       document.getElementById("products_wrapper").innerHTML = this.responseText;
     };
-    let url = (type == '') ? `http://localhost/BKWebProgramming/Lab/PHP-Ecommerce-Website/src/index.php?page=show_products&search=${search_key}` 
-                           : `http://localhost/BKWebProgramming/Lab/PHP-Ecommerce-Website/src/index.php?page=show_products&search=${search_key}&type=${type}`
+    let url = (type == '') ? `index.php?page=show_products&search=${search_key}` 
+                           : `index.php?page=show_products&search=${search_key}&type=${type}`
     // let url = `index.php?page=show_products&search=${search_key}`;
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
@@ -66,8 +66,8 @@
       document.getElementById("hint_box").innerHTML = this.responseText;
 
     };
-    let url = (type == '') ? `http://localhost/BKWebProgramming/Lab/PHP-Ecommerce-Website/src/index.php?page=show_hints&search=${search_key}` 
-                           : `http://localhost/BKWebProgramming/Lab/PHP-Ecommerce-Website/src/index.php?page=show_hints&search=${search_key}&type=${type}`
+    let url = (type == '') ? `index.php?page=show_hints&search=${search_key}` 
+                           : `index.php?page=show_hints&search=${search_key}&type=${type}`
     // let url = `index.php?page=show_products&search=${search_key}`;
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
@@ -90,7 +90,7 @@
 
     };
 
-    xmlhttp.open("GET", `http://localhost/BKWebProgramming/Lab/PHP-Ecommerce-Website/src/index.php?page=show_details&product_id=${product_id}`, true);
+    xmlhttp.open("GET", `index.php?page=show_details&product_id=${product_id}`, true);
     xmlhttp.send();
   }
 </script>

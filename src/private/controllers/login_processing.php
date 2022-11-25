@@ -23,7 +23,7 @@
     $result = $conn -> query($sql);
     if ($result -> num_rows == 0) {
       // $conn -> close();
-      header("LOCATION: http://localhost/BKWebProgramming/Lab/Lab2/index.php?page=login&error=1");
+      header("LOCATION: index.php?page=login&error=1");
     }
     else {
       $row = $result -> fetch_assoc();
@@ -36,7 +36,7 @@
       $_SESSION["role"] = $row["role"];
 
       // redirect logged in user back to homepage
-      header("LOCATION: http://localhost/BKWebProgramming/Lab/Lab2/index.php?page=home");
+      header("LOCATION: index.php?page=home");
       // session_destroy();
     }
     

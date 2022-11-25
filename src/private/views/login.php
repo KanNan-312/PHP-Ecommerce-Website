@@ -1,7 +1,7 @@
 <div class="container h-100">
 			<div class="container" style="height: 100px;"></div>
 			<div class="d-flex justify-content-center">
-				<img class="logo" src="logo_amazon.png" alt="" class="rounded-float-start">
+				<img class="logo" src="assets/logo_amazon.png" alt="" class="rounded-float-start">
 			</div>
 			<div class="d-flex justify-content-center form_container mt-4">
 				<!-- Form wrapper -->
@@ -52,7 +52,7 @@
 		<div id="my-signin2" class="d-flex justify-content-center mt-4">
 			<div id="g_id_onload"
 					data-client_id="959036718900-enh47m9skta3m5bnu1bbchgaugvb95m8.apps.googleusercontent.com"
-					data-login_uri="http://localhost/BKWebProgramming/Lab/Lab2/index.php?page=google_login_processing"
+					data-login_uri="index.php?page=google_login_processing"
 					data-auto_prompt="false">
 				</div>
 				<div class="g_id_signin"

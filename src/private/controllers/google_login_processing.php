@@ -20,7 +20,7 @@
     $_SESSION["role"] = "normal";
 
     // redirect logged in user back to homepage
-    header("LOCATION: http://localhost/BKWebProgramming/Lab/Lab2/index.php?page=home");
+    header("LOCATION: index.php?page=home");
   } else {
     // Invalid ID token
     echo "Invalid ID token";
