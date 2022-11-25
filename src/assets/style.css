@@ -1,0 +1,144 @@
+a {
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  /* margin-top: 0; */
+}
+.hover_color:hover {
+  color: #dff6ff;
+}
+
+.copyright {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #808080;
+  font-size: 20px;
+}
+
+.nav_color {
+  background-color: #06283d;
+}
+
+.nav_text {
+  font-size: 10px;
+  color: #dff6ff;
+}
+
+.navbar-nav {
+  display:table;
+  width:100%;
+  margin: 0;
+}
+
+.login_text {
+  font-size: 25px;
+  color: white !important;
+}
+
+.login_button {
+  /* background-color: #1363DF; */
+  border-style: solid;
+}
+
+.page {
+  background-color: #dff6ff;
+}
+
+.grey-on-hover:hover {
+  background-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+.product_card:hover {
+  background-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.style_hint_box {
+  background-color: rgba(255, 255, 255, 1);
+  z-index: 999;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  p {
+    font-size: 15px;
+  }
+  .wrapper {
+    overflow-x: scroll;
+  }
+  .nav_text {
+    font-size: 20px;
+  }
+  .dropdown_text {
+    font-size: 15px;
+  }
+  .copyright {
+    font-size: 15px;
+  }
+  .logo {
+    height: 60px;
+    width: 90px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  p {
+    font-size: 18px;
+  }
+  .nav_text {
+    font-size: 20px;
+  }
+  .dropdown_text {
+    font-size: 18px;
+  }
+  .copyright {
+    font-size: 18px;
+  }
+  .logo {
+    height: 75px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  p {
+    font-size: 20px;
+  }
+  .nav_text {
+    font-size: 22px;
+  }
+  .dropdown_text {
+    font-size: 20px;
+  }
+  .logo {
+    height: 90px;
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  p {
+    font-size: 23px;
+  }
+  .nav_text {
+    font-size: 25px;
+  }
+  .dropdown_text {
+    font-size: 25px;
+  }
+  .logo {
+    height: 100px;
+    width: 150px;
+  }
+}
+
+
+
